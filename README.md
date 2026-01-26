@@ -16,10 +16,13 @@ A daily record of LeetCode problems solved in Python!
 
     - Space complexity:
      0(n), since everything gets stored into the dictionary once.
+      
 **Day 2** - Palindrome Number Problem (Python)
-    - # Intution
+  - # Intuition
       For this problem, I have to check if a number flipped around is the same as the orignal number.
-    - # Approach
+      
+  - # Approach
       First, I converted the number to a string so that it would be easy to flip. Then, I reversed the number and used an if statement to check if it is the same as the orginal number. Numbers that are negative would automatically not work because the negative sign would not be in the correct place.
-    - # Time Complexity
-      O(n), because reversing string only takes that.
+      
+- # Time Complexity
+  O(n), because reversing string only takes that.
