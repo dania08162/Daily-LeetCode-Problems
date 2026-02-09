@@ -26,3 +26,13 @@ A daily record of LeetCode problems solved in Python!
       
 - **Time Complexity**
   O(n), because reversing string only takes that.
+  
+# Day 3 - Lousey Christmas Presents (Python, not LeetCode)
+  - **Intution**
+    The problem is asking to find the longest sequence of a scarf that starts with a specific color and ends with a specific color.
+    
+  - **Approach**
+    For this problem, I looped through the scarf and looked for positions where the starting color appears, and did the same for the ending color. Then I used a formula last[b] - first[a] + 1 each time and kept track of the maximum.
+
+  - **Time Complexity**
+    O(n), because the number of times we look at the scarf changes a lot.
